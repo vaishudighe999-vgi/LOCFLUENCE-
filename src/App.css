@@ -108,7 +108,7 @@ body {
 .login-btn {
   padding: 12px;
   border: none;
-  background: blue;
+  background: rgb(18, 18, 19);
   color: white;
   border-radius: 8px;
   cursor: pointer;

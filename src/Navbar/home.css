@@ -121,6 +121,22 @@ body {
   gap: 20px;
 }
 
+.learn-btn {
+  background: #000;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+.learn-btn:active {
+  transform: scale(0.98);
+}
 .hero-start-btn {
   background: black;
   color: white;
@@ -308,8 +324,8 @@ body {
 ====================== */
 
 .cta-section {
-  background: #000;
-  color: #fff;
+  background: #f6f5f5;
+  color: #131212;
   padding: 60px 20px;
   text-align: center;
 }
@@ -329,14 +345,14 @@ body {
 .cta-content p {
   font-size: 17px;
   line-height: 1.2;
-  color: #e0e0e0;
+  color: #0e0e0e;
   max-width: 720px;
   margin: 0px auto 23px;
 }
 
 .cta-btn {
-  background: #fff;
-  color: #000;
+  background: #010101;
+  color: #f4f0f0;
   border: none;
   border-radius: 10px;
   padding: 10px 23px;
@@ -453,7 +469,7 @@ body {
 ====================== */
 
 .footer {
-  background: #f3f3f3;
+  background: #060606;
   padding: 70px 45px 40px;
 }
 

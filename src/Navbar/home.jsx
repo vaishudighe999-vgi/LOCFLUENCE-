@@ -64,10 +64,13 @@ import "./home.css";function Home() {
 >
   Get Started →
 </button>
-            <button className="hero-learn-btn">
-              Learn More
-            </button>
-          </div>
+<button
+  className="learn-btn"
+  onClick={() => navigate("/about")}
+>
+  Learn More
+</button>
+ </div>
         </div>
       </section>
 
